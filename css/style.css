@@ -1,0 +1,90 @@
+/* Global Start */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy_Fonts/Gilroy-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter_Fonts/Inter-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik_Fonts/Rubik-Medium.ttf);
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    background: #0F1145;
+    font-family: "Gilroy";
+    font-weight: 400;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 8px 26px;
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+/* Global End */
+
+/* Header Start */
+
+.navbar {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu__links {
+    display: flex;
+}
+
+.menu__link {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.signin__btn {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+}
+/* Header End */
