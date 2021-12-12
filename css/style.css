@@ -25,7 +25,7 @@
 }
 
 body {
-    width: 1440px;
+    /* width: 1440px; */
     background: #0F1145;
     font-family: "Gilroy";
     font-weight: 400;
@@ -38,6 +38,7 @@ ul,ol {
 a {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .container {
@@ -58,6 +59,11 @@ a {
 /* Global End */
 
 /* Header Start */
+
+.header {
+    width: 100%;
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
 
 .navbar {
     padding-top: 80px;
@@ -90,5 +96,66 @@ a {
     border-radius: 4px;
     color: #F2994A;
 }
+
+.main__reason {
+    padding-top: 105px;
+    display: flex;
+}
+
+.main__reason .left {
+    width: 50%;
+}
+
+.reason__title {
+    margin-bottom: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    color: #99EFD0;
+}
+
+.reason__subtitle {
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8476AA;
+}
+
+.reason__btn {
+    padding: 40px 0 60px;
+}
+
+.learn__btn {   
+    padding: 13px 32px;
+}
+
+.demo__btn {
+    margin-left: 20px;
+    padding: 13px 58px;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    color: #F2994A;
+}
+
+.vedio__frame {
+    width: 140px;
+    height: 80px;
+    background: #361C5D;
+    border-radius: 4px;
+}
+
+.vedio__frame i {
+    padding: 20px 50px;
+}
+
+.main__reason .right {
+    width: 50%;
+}
+
 
 /* Header End */
