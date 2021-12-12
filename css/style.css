@@ -66,25 +66,29 @@ a {
     text-transform: uppercase;
 }
 
+.menu {
+    padding: 0 430px 0 45px;
+}
+
 .menu__links {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .menu__link {
     font-size: 12px;
+    letter-spacing: 2px;
+    color: #B5B5B5;
 }
 
-
-
-
-
-
-
-
 .signin__btn {
+    margin-right: 20px;
     background: transparent;
     box-shadow: none;
     border: 1px solid #F2994A;
     border-radius: 4px;
+    color: #F2994A;
 }
+
 /* Header End */
